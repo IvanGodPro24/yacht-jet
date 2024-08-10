@@ -1,3 +1,57 @@
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
+  background: #0e1823;
+  color: #fff;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  padding-top: 80px;
+}
+
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .section {
+    padding-top: 150px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
 }
