@@ -40,8 +40,15 @@
   padding-bottom: 7px;
 }
 
+.burger-btn:hover .burger-icon,
+.burger-btn:focus .burger-icon {
+  stroke: #062730;
+}
+
 .burger-icon {
   stroke: #1b414b;
+
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (max-width: 767px) {
