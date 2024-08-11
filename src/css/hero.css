@@ -1,0 +1,172 @@
+.hero {
+  padding-top: 260px;
+  padding-bottom: 243px;
+
+  background-image: linear-gradient(
+      360deg,
+      rgba(17, 19, 31, 0.8) 15.05%,
+      rgba(17, 19, 31, 0.8) 75.3%,
+      rgba(17, 19, 31, 0.8) 98.27%
+    ),
+    url('../img/hero-mob.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/hero-mob@2x.jpg');
+  }
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin: 0 auto;
+
+  margin-bottom: 24px;
+}
+
+.hero-paragraph {
+  padding-right: 5px;
+  padding-left: 5px;
+
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  margin: 0 auto;
+
+  margin-bottom: 38px;
+}
+
+.yacht-btn {
+  max-width: 141px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 14px 32px;
+
+  background: #1b414b;
+}
+
+.yacht-btn:hover,
+.yacht-btn:focus {
+  color: #1b414b;
+  background: #fbfbfb;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 280px;
+    padding-bottom: 215px;
+
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/hero-tab.jpg');
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          360deg,
+          rgba(17, 19, 31, 0.8) 15.05%,
+          rgba(17, 19, 31, 0.8) 75.3%,
+          rgba(17, 19, 31, 0.8) 98.27%
+        ),
+        url('../img/hero-tab@2x.jpg');
+    }
+  }
+
+  .hero-title {
+    width: 652px;
+
+    font-size: 70px;
+  }
+
+  .hero-paragraph {
+    width: 597px;
+
+    font-size: 16px;
+    line-height: 1.4;
+
+    margin-bottom: 48px;
+  }
+
+  .yacht-btn {
+    min-width: 179px;
+    padding: 16px 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    padding-top: 235px;
+    padding-bottom: 180px;
+
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/hero-desk-1280.jpg');
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          360deg,
+          rgba(17, 19, 31, 0.8) 15.05%,
+          rgba(17, 19, 31, 0.8) 75.3%,
+          rgba(17, 19, 31, 0.8) 98.27%
+        ),
+        url('../img/hero-desk-1280@2x.jpg');
+    }
+  }
+
+  .hero-title {
+    width: 1000px;
+
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/hero-desk-1440.jpg');
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          360deg,
+          rgba(17, 19, 31, 0.8) 15.05%,
+          rgba(17, 19, 31, 0.8) 75.3%,
+          rgba(17, 19, 31, 0.8) 98.27%
+        ),
+        url('../img/hero-desk-1440@2x.jpg');
+    }
+  }
+}
