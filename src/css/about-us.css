@@ -1,0 +1,156 @@
+.about-us {
+  margin-top: -60px;
+
+  background: #fbfbfb;
+  border-radius: 24px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-top: 40px;
+  padding-bottom: 335px;
+
+  max-width: 335px;
+
+  position: relative;
+}
+
+.about-us-image {
+  position: absolute;
+  top: 380px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-us-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.about-us-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+
+  padding-right: 20px;
+}
+
+.about-paragraph-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-paragraph-top {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+
+.about-paragraph-bottom {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
+
+@media (min-width: 768px) {
+  .about-us {
+    padding-top: 50px;
+    padding-bottom: 244px;
+
+    max-width: 704px;
+  }
+
+  .about-us-image {
+    top: 481px;
+  }
+
+  .about-us-container {
+    gap: 50px;
+
+    padding-left: 32px;
+    padding-right: 136px;
+  }
+
+  .about-us-title {
+    font-size: 48px;
+
+    padding-right: 0;
+  }
+
+  .about-paragraph-container {
+    padding-right: 147px;
+  }
+
+  .about-paragraph-top {
+    font-size: 23px;
+  }
+
+  .about-paragraph-bottom {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about-us {
+    padding-bottom: 415px;
+
+    max-width: 1180px;
+  }
+
+  .about-us-image {
+    top: 360px;
+  }
+
+  .about-us-container {
+    flex-wrap: nowrap;
+    gap: 0;
+
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .about-us-title {
+    margin-right: 191px;
+  }
+
+  .about-paragraph-container {
+    padding-right: 0;
+  }
+
+  .about-paragraph-top,
+  .about-paragraph-bottom {
+    max-width: 354px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-us {
+    padding-bottom: 481px;
+
+    max-width: 1340px;
+  }
+
+  .about-us-image {
+    top: 337px;
+  }
+
+  .about-us-title {
+    margin-right: 315px;
+  }
+
+  .about-paragraph-top,
+  .about-paragraph-bottom {
+    max-width: 404px;
+  }
+}
