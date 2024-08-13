@@ -23,14 +23,15 @@ a {
   text-decoration: none;
 }
 
-input {
+input,
+a,
+button {
   outline: none;
 }
 
 button {
   cursor: pointer;
   border: none;
-  outline: none;
 }
 
 img {
