@@ -25,7 +25,8 @@ a {
 
 input,
 a,
-button {
+button,
+textarea {
   outline: none;
 }
 

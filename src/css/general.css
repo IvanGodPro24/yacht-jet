@@ -81,6 +81,10 @@ body {
   color: #1b414b;
 }
 
+.radius {
+  border-radius: 24px;
+}
+
 @media (min-width: 375px) {
   .container {
     max-width: 375px;
