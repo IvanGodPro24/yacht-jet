@@ -1,0 +1,110 @@
+.rent-title {
+  text-align: start;
+
+  margin-bottom: 40px;
+}
+
+.rent-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  max-width: 335px;
+
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 14px 18px 14px;
+  background: transparent;
+
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+
+  margin-bottom: 18px;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+.form-input:focus-within {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.comment-textarea {
+  padding: 14px 18px 80px;
+
+  resize: none;
+
+  margin-bottom: 40px;
+}
+
+.send-btn {
+  max-width: 122px;
+
+  padding: 14px 44px;
+  background: #1b414b;
+
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .rent-title {
+    padding-left: 133px;
+    margin-bottom: 50px;
+  }
+
+  .rent-form {
+    align-items: center;
+  }
+
+  .form-input {
+    min-width: 472px;
+  }
+
+  .comment-textarea {
+    padding: 18px 18px 80px;
+
+    margin-bottom: 50px;
+  }
+
+  .send-btn {
+    min-width: 194px;
+    padding: 18px 75px;
+
+    align-self: start;
+
+    margin-left: 133px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .rent-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .rent-title {
+    padding-left: 0;
+  }
+
+  .send-btn {
+    margin: 0;
+  }
+}
