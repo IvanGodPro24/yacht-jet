@@ -1,0 +1,129 @@
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+
+  margin-bottom: 40px;
+}
+
+.reviews-title {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.reviews-paragraph {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-item {
+  max-width: 335px;
+  min-height: 282px;
+
+  border-radius: 24px;
+  padding: 32px 16px;
+  background: #fbfbfb;
+}
+
+.reviews-image {
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.review-name-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+
+  margin-bottom: 8px;
+}
+
+.review-info {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+
+@media (max-width: 767px) {
+  .reviews-item:nth-child(2),
+  .reviews-item:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .reviews-item:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .reviews-container {
+    margin-bottom: 75px;
+  }
+
+  .reviews-paragraph {
+    max-width: 571px;
+    margin: 0 auto;
+
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .reviews-list {
+    gap: 32px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .reviews-list {
+    gap: 26px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .reviews-title {
+    max-width: 830px;
+    margin: 0 auto;
+  }
+
+  .reviews-item {
+    max-width: 376px;
+    padding: 32px 28px;
+  }
+
+  .review-info {
+    padding-left: 5px;
+  }
+
+  .reviews-item:nth-child(3) .review-info {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .reviews-item {
+    max-width: 392px;
+    padding: 32px 36px;
+  }
+}
