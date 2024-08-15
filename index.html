@@ -390,6 +390,7 @@
           class="form-input"
           id="email-input"
           placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           required
         />
         <input
@@ -398,6 +399,7 @@
           class="form-input"
           id="phone-input"
           placeholder="Phone number"
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
           required
         />
         <textarea
